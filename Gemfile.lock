@@ -7,6 +7,14 @@ GIT
       spree_backend (~> 3.0)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_static_content.git
+  revision: b2441617e58cd9f25fe8d1ba271d5c1f1938ccf9
+  branch: master
+  specs:
+    spree_static_content (3.1.0.beta)
+      spree_core (~> 3.1.0.beta)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: 641a973b467593524ff7eb6459c2eabea1ace4bc
   specs:
@@ -343,6 +351,7 @@ DEPENDENCIES
   spree!
   spree_auth_devise!
   spree_product_assembly!
+  spree_static_content!
   spring
   sqlite3
   turbolinks
