@@ -51,4 +51,7 @@ gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', br
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: 'master'
 
+# enable features such as static asset serving and logging on Heroku
+gem 'rails_12factor', group: :production
+
 ruby '2.2.3'
