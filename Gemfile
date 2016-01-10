@@ -43,6 +43,8 @@ group :development, :test do
   gem 'spring'
 
   gem 'sqlite3'
+
+  gem 'rspec'
 end
 
 #spree commerce
@@ -50,6 +52,8 @@ gem 'spree', github: 'spree/spree'
 gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', branch: 'master'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: 'master'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 
 # enable features such as static asset serving and logging on Heroku
 gem 'rails_12factor', group: :production

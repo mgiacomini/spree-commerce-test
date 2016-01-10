@@ -10,3 +10,5 @@
 
 //= require_tree .
 //= require spree/backend/spree_product_assembly
+//= require spree/backend/spree_i18n
+//= require spree/backend/spree_globalize
